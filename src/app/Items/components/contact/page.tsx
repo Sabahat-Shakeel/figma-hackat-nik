@@ -11,7 +11,8 @@ function ContactUsPage () {
 
 
   return (
-    <main className="bg-white flex flex-col items-center w-full reveal">
+    <main className="bg-white flex flex-col items-center w-full reveal"  data-aos="fade-up-right"
+    data-aos-easing="linear">
       
 
       <section className="w-full max-w-[1440px] px-4 py-8 flex flex-col">

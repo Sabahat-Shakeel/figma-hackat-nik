@@ -5,11 +5,13 @@ import React from 'react';
 export default function List() {
    return (
     <div>
-      <footer className="reveal text-gray-600 body-font">
-        <div className="container px-5 pl-20 pr-5 py-24 mx-auto flex flex-col items-center md:flex-row md:items-start">
-          <div className="flex-grow flex flex-col justify-center md:justify-start md:pr-20 -mb-10 text-center md:text-left">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4 font-[Helvetica]">
-              <h2 className="reveal title-font font-semibold text-gray-900 tracking-widest text-sm mb-3">
+      <footer className="reveal text-gray-600 body-font"   data-aos="fade-up-right"
+        data-aos-easing="linear">
+        <div className="container px-5  pr-5 py-24 mx-auto flex flex-col items-center md:flex-row md:items-start">
+          <div className="flex-grow flex md:flex-row flex-col justify-center md:justify-start md:pr-20 -mb-10 text-center md:text-left">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4 font-[Helvetica]"   data-aos="fade-up-right"
+        data-aos-easing="linear">
+              <h2 className="reveal title-font font-semibold text-gray-900 tracking-widest text-md mb-3">
                 Icon
               </h2>
               <nav className="list-none mb-10">

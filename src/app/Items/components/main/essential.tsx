@@ -3,14 +3,15 @@
 export default function Features() {
 
   return (
-    <main className="m-4">
+    <main className="m-4"  data-aos="fade-up-right"
+    data-aos-easing="linear">
       <div className="reveal">
       <div className="flex justify-center items-center flex-col gap-3 p-10">
         <h2 className=" text-4xl font-bold  text-center"> FLIGHT ESSENTIALS </h2>
-        <p className="text-sm  leading-5 w-[100%] pt-3 pb-2 text-center">
+        <p className="text-md  leading-5 w-[100%] pt-3 pb-2 text-center">
             Your built-to-last, all-week wears-but with style only Jordan Brand can deliver.
         </p>
-        <button>Shop</button>
+        <button className= 'bg-slate-900 hover:opacity-75 text-neutral-200 px-12 py-2 rounded-full'>Shop</button>
       </div>
 
         <h1 className="font-semibold text-xl py-5">The Essentials</h1>

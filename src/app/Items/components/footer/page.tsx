@@ -14,16 +14,17 @@ const Footer = () => {
 
   
   return (
-    <footer className="reveal bg-black text-white/90 py-8 px-6">
+    <footer className="reveal bg-black text-white/90 py-8 px-6"   data-aos="fade-up-right"
+    data-aos-easing="linear">
     <div className="reveal container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
     {/* Column 1 */}
     <div>
       <h3 className="text-sm  mb-4 font-thin">FIND A STORE</h3>
       <ul className="space-y-2 text-sm">
-        <li><Link href="#" className="hover:underline font-thin">BECOME A MEMBER</Link></li>
-        <li><Link href="#" className="hover:underline font-thin">SIGN UP FOR EMAIL</Link></li>
-        <li><Link href="#" className="hover:underline font-thin">Send Us feedback</Link></li>
-        <li><Link href="#" className="hover:underline font-thin">STUDENTS DISCOUNT</Link></li>
+        <li><Link href="#" className="hover:underline font-medium">BECOME A MEMBER</Link></li>
+        <li><Link href="#" className="hover:underline font-medium">SIGN UP FOR EMAIL</Link></li>
+        <li><Link href="#" className="hover:underline font-medium">Send Us feedback</Link></li>
+        <li><Link href="#" className="hover:underline font-medium">STUDENTS DISCOUNT</Link></li>
       </ul>
     </div>
 
@@ -62,7 +63,7 @@ const Footer = () => {
 
   {/* Bottom Section */}
   <div className="mt-8 border-t border-gray-700 pt-4">
-    <div className="container mx-auto flex flex-wrap justify-between items-center text-xs text-gray-300/80">
+    <div className="container mx-auto flex flex-wrap justify-between items-center text-sm text-gray-300/80">
       {/* Country and Copyright */}
       <div className="flex items-center gap-2 mb-4 md:mb-0">
         <IoLocationOutline className='text-white'/>

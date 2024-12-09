@@ -6,7 +6,8 @@ export default function Cart() {
 
 
   return (
-    <div className="reveal min-h-screen bg-white flex items-center justify-center">
+    <div className="reveal min-h-screen bg-white flex items-center justify-center"  data-aos="fade-up-right"
+    data-aos-easing="linear">
       <div className="max-w-5xl w-full bg-white p-6">
         {/* Bag Section */}
         <div className="grid grid-cols-3 gap-6">

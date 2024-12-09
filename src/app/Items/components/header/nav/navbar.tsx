@@ -7,7 +7,8 @@ const Navbar = () => {
   return (
     
 <div>
-        <header className="reveal portrait:hidden bg-[#F5F5F5] border-b font-[Helvetica Neue] flex justify-between items-center px-10 py-2">
+        <header className="reveal portrait:hidden bg-[#F5F5F5] border-b font-[Helvetica Neue] flex justify-between items-center px-10 py-2"   data-aos="fade-up-right"
+        data-aos-easing="linear">
           {/* Logo Section */}
           <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg
 SVG namespace - World Wide Web Consortium (W3C)

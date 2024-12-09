@@ -8,7 +8,8 @@ export default function ProductDetails() {
 
   
   return (
-    <div className="reveal flex flex-col lg:flex-row items-center lg:items-start justify-between border p-4 rounded-lg bg-white shadow-md w-[90%] mx-auto mt-4 py-6">
+    <div className="reveal flex flex-col lg:flex-row items-center lg:items-start justify-between border p-4 rounded-lg bg-white shadow-md w-[90%] mx-auto mt-4 py-6"   data-aos="fade-up-right"
+    data-aos-easing="linear">
       {/* Left Section - Image */}
       <div className="relative flex items-center justify-center w-full lg:w-1/3 reveal">
         <Image

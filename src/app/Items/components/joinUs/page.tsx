@@ -25,7 +25,8 @@ export default function JoinUs() {
 
   return (
     <div className="reveal min-h-screen flex items-center justify-center mt-12 pb-11">
-      <div className=" p-8 rounded-lg w-full max-w-md">
+      <div className=" p-8 rounded-lg w-full max-w-md"  data-aos="fade-up-right"
+        data-aos-easing="linear">
         
         {/* Nike Logo */}
         <div className="flex justify-center mb-4">

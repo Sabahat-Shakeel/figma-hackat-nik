@@ -4,7 +4,8 @@ export default function Flight() {
 
   
   return (
-    <main className="m-4">
+    <main className="m-4"   data-aos="fade-up-right"
+    data-aos-easing="linear">
       <div>
         <h1 className="font-semibold text-xl  py-5">Don&apos;t Miss</h1>
       </div>

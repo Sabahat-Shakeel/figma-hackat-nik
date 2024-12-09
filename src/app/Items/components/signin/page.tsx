@@ -8,7 +8,8 @@ const Signin = () => {
   return (
     <>
     <div className='reveal h-screen grid place-content-center  overflow-hidden  '>
-<div className=' w-[380px] h-[489] font-[Helvetica] '>
+<div className=' w-[380px] h-[489] font-[Helvetica] '  data-aos="fade-up-right"
+        data-aos-easing="linear">
    
 <div className="flex justify-center reveal  ">
     <Image 

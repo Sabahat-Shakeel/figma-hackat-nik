@@ -4,14 +4,15 @@ import Link from "next/link";
 
 export default function BestShoes() {
   return (
-    <section className="reveal p-5 sm:p-10">
-      <div className="flex flex-wrap justify-between items-center py-3 text-center">
-        <h2 className="font-semibold text-lg pl-[78px] sm:text-xl">Best of Air Max</h2>
+    <section className="reveal p-5 sm:p-10"  data-aos="fade-up-right"
+    data-aos-easing="linear">
+      <div className="flex flex-wrap justify-center items-center py-3 text-center">
+        <h2 className="font-semibold text-center text-xl  sm:text-xl">Best of Air Max</h2>
       </div>
       <div className="  flex flex-wrap justify-evenly items-center gap-4 sm:gap-5">
        
            
-          <div className=" flex flex-col lg:flex-row text-sm sm:text-base leading-relaxed max-w-[250px] sm:max-w-[250px] lg:max-w-[300px]">
+          <div className=" flex flex-col lg:flex-row text-sm sm:text-base leading-relaxed max-w-[290px] sm:max-w-[250px] lg:max-w-[300px]">
 
 
         
@@ -28,7 +29,7 @@ export default function BestShoes() {
 </div>
 
              
-<div className=" flex flex-col lg:flex-row text-sm sm:text-base leading-relaxed max-w-[250px] sm:max-w-[250px] lg:max-w-[300px]">
+<div className=" flex flex-col lg:flex-row text-sm sm:text-base leading-relaxed max-w-[290px] sm:max-w-[250px] lg:max-w-[300px]">
 
 
 <Link href="/Items/components/main">
@@ -46,7 +47,7 @@ export default function BestShoes() {
 
 
          
-<div className=" flex flex-col lg:flex-row text-sm sm:text-base leading-relaxed max-w-[250px] sm:max-w-[250px] lg:max-w-[300px]">
+<div className=" flex flex-col lg:flex-row text-sm sm:text-base leading-relaxed max-w-[290px] sm:max-w-[250px] lg:max-w-[300px]">
 
 
 

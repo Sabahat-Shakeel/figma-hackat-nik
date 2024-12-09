@@ -12,7 +12,8 @@ export function GearUp() {
 
 
   return (
-    <div className="reveal container mx-auto px-4 py-8">
+    <div className="reveal container mx-auto px-4 py-8"  data-aos="fade-up-right"
+    data-aos-easing="linear">
       <h1 className="reveal text-xl font-semibold lg:mb-8">Gear Up</h1>
       <div className="grid grid-cols-2 md:grid-cols-2 gap-8">
         <section >

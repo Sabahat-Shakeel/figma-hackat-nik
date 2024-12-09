@@ -2,7 +2,8 @@
 export default function Featured() {
 
   return (
-    <main className="m-4 reveal">
+    <main className="m-4 reveal"   data-aos="fade-up-right"
+    data-aos-easing="linear">
       <div>
         <h1 className="font-semibold text-xl py-5">Featured</h1>
       </div>
